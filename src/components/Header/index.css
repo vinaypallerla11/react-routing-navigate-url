@@ -1,0 +1,80 @@
+.nav-header {
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  /* background: url('https://assets.ccbp.in/frontend/react-js/books-blog-bg.png'); */
+  border: 2px solid #551e53;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 1000px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.blog-title {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 16px;
+}
+.sub-title {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 34px;
+  }
+}
+
+.img-wave {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+.img-logo {
+  height: 24px;
+  width: 24px;
+  padding: 2px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.heading {
+  color: black;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding: 2px;
+}
